@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SystemUISideKey</string>
+    <!--通用window子菜单-->
+    <string name="window_menu_back">返回</string>
+    <string name="window_menu_title_back_to_last_level">按[返回键]返回上级菜单</string>
+    <string name="window_menu_title_menu_edit">按[菜单键]编辑排序</string>
+    <string name="window_menu_left_title_menu_edit">快捷功能</string>
+    <string name="window_menu_left_title_add_edit">快捷中心</string>
+    <string name="window_menu_left_title_3d_edit">3D模式</string>
+    <string name="window_menu_left_title_memc_edit">运动补偿</string>
+
+    <!--3D-->
+    <string name="window_menu_3d_close">关闭3D</string>
+    <string name="window_menu_3d_2_to_3">2D转3D</string>
+    <string name="window_menu_3d_left_right">左右3D</string>
+    <string name="window_menu_3d_up_down">上下3D</string>
+    <string name="window_menu_blue_3d">蓝光3D</string>
+    <string name="window_menu_lr3d_to_2d">左右3D转2D</string>
+    <string name="window_menu_tb3d_to_2d">上下3D转2D</string>
+
+    <!--memc-->
+    <string name="window_menu_memc_close">关闭</string>
+    <string name="window_menu_memc_high">高帧率</string>
+    <string name="window_menu_memc_mid">中帧率</string>
+    <string name="window_menu_memc_low">低帧率</string>
+
+    <!--主菜单功能-->
+    <string name="window_menu_main_settings">设置</string>
+    <string name="window_menu_main_file_manager">文件管理</string>
+    <string name="window_menu_main_auto_focus">自动对焦</string>
+    <string name="window_menu_main_manual_focus">手动对焦</string>
+    <string name="window_menu_main_input_source">输入源</string>
+    <string name="window_menu_main_one_key_clean">一键清理</string>
+    <string name="window_menu_main_blue_tooth_settings">蓝牙设置</string>
+    <string name="window_menu_main_trapezoid_correction">梯形校正</string>
+    <string name="window_menu_main_picture_correction">画面校正</string>
+    <string name="window_menu_main_network_connect">网络连接</string>
+    <string name="window_menu_main_size_adjust">尺寸调节</string>
+    <string name="window_menu_main_brightness_mode">亮度</string>
+    <string name="window_menu_main_add">添加功能</string>
+    <string name="window_menu_main_task_switch">任务切换</string>
+    <string name="window_menu_main_global_3d">3D模式</string>
+    <string name="window_menu_graphics_setting">图像设置</string>
+    <string name="window_menu_enable_dream">启动屏保</string>
+    <string name="window_menu_4k_zone">4K专区</string>
+    <string name="window_menu_4k_cache">我的缓存</string>
+    <!--B1的菜单-->
+    <string name="window_menu_main_voice_set">声音设置</string>
+    <string name="window_menu_main_display_set">显示设置</string>
+    <string name="window_menu_main_clear_dust">一键除尘</string>
+    <string name="window_menu_main_safe_pop">安全退出</string>
+    <string name="window_menu_main_child_mode">儿童模式</string>
+    <string name="window_menu_main_parent_mode">标准模式</string>
+    <string name="window_menu_main_memc">运动补偿</string>
+    <string name="window_menu_sound_mode">音效模式</string>
+
+    <string name="memory_cleared_for_you">已为您清理内存</string>
+    <string name="pls_restore_default_value_in_advanced_settings">请到梯形校正高级设置中恢复默认梯形设置</string>
+    <string name="pls_use_3d_with_the_video_playing">请在视频播放下使用3D设置</string>
+    <string name="motion_compensation_is_turned_off_in_3D_mode">3D模式下运动补偿已关闭</string>
+    <string name="switch_successfully">切换成功</string>
+    <string name="motion_compensation_is_turned_off">运动补偿已关闭</string>
+    <string name="motion_compensation_function_is_not_available_in_3D_mode">3D模式下，运动补偿功能不可用</string>
+    <string name="pls_use_motion_compensation_settings_under_video_playback">请在视频播放下使用运动补偿设置</string>
+
+</resources>
