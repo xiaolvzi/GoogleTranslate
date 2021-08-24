@@ -24,14 +24,15 @@ if __name__ == "__main__":
     desList = []
     # 获取中文文案列表
     for index in range(0, len(root)):
-        srcList.append(root[index].text)
+        if root[index].tag == 'string' and 'msgid' not in root[index].attrib.keys():
+            srcList.append(root[index].text)
 
     # 开始翻译并生成对应语言的xml文件
     for language in LANGUAGES.keys():
         # 批量翻译
         desList = client.translate(srcList, target=language)
         # 创建对应语言的xml字符串
-        res = Element('resources')
+        res = Element('resources') 
         for index in range(0, len(root)):
             s = ET.SubElement(res, root[index].tag)
             s.attrib = root[index].attrib

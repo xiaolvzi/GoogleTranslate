@@ -22,7 +22,6 @@ LANGUAGES = {
     'cs': 'czech',
     'da': 'danish',
     'nl': 'dutch',
-    'en': 'english',
     'eo': 'esperanto',
     'et': 'estonian',
     'tl': 'filipino',
